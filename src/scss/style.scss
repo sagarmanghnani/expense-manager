@@ -1,11 +1,8 @@
-body {
-  background: linear-gradient(to left,#000428 ,#004e92);
-  color: #f8f8f8;
-  display: flex;
-  justify-content: center;
+html {
+  height: 100%;
 }
 
-h1 {
-  color: #f8f8f8;
-  font-family: helvetica;
+body {
+  width: 100%;
+  margin: 0;
 }

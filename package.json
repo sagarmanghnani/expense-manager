@@ -1,5 +1,5 @@
 {
-  "name": "react-webpack-kit",
+  "name": "expense",
   "version": "1.0.0",
   "description": "a boiler plate for creating react applications bundled by webpack",
   "main": "src/js/app.js",
@@ -22,6 +22,7 @@
   "author": "Temi Lajumoke <temi@temilajumoke.com> (http://temilajumoke.com)",
   "license": "MIT",
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "file-loader": "^6.1.1",
     "onsenui": "^2.11.1",
