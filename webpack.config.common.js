@@ -25,14 +25,16 @@ module.exports = {
 			},
 			{
 				test: /\.css$/,
-				use: ExtractTextPlugin.extract({
-					use: 'css-loader'
-				}),
+				use: [ 'style-loader', 'css-loader' ]
 			},
 			{
 				test: /\.(js|jsx)$/,
 				loader: 'babel-loader',
 				exclude: /node_modules/
+			},
+			{
+				test: /\.(eot|svg|ttf|woff|woff2)$/,
+				loader: 'file-loader?name=fonts/[name].[ext]'
 			}
 		]
 	},
