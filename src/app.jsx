@@ -3,10 +3,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Home from './components/Home';
+import Test from './components/test';
 
 const renderApplication = () => {
   ReactDOM.render(
     <Home /> ,
+    <Test />,
     document.querySelector('#root')
   );
 }
